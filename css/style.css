@@ -5,16 +5,11 @@ body {
     padding-top: 56px; /* Espacio para el navbar fijo en la parte superior */
 }
 
-/* Header */
-header {
-    background: linear-gradient(135deg, #76b852, #8dc26f);
-    color: white;
-    padding: 1.5rem 0;
-}
+
 
 /* Navbar */
 .navbar {
-    background-color: rgba(224, 247, 250, 0.9); /* Hacer el fondo de la navbar semi-transparente */
+    background-color: #28a745; /* Hacer el fondo de la navbar semi-transparente */
 }
 .navbar-nav .nav-link {
     color: #00796b;
