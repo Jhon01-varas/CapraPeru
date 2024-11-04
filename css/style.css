@@ -5,8 +5,6 @@ body {
     padding-top: 56px; /* Espacio para el navbar fijo en la parte superior */
 }
 
-
-
 /* Navbar */
 .navbar {
     background-color: #28a745; /* Hacer el fondo de la navbar semi-transparente */
@@ -86,10 +84,10 @@ html {
 /* Ajustes de diseño responsivo para teléfonos */
 @media (max-width: 768px) {
     .navbar {
-        background-color: rgba(224, 247, 250, 0.95);
+        background-color: #00ff3cf2;
     }
     .navbar-collapse {
-        background-color: #ffffff; /* Color de fondo para el menú en móvil */
+        background-color: #00ff3cf2; /* Color de fondo para el menú en móvil */
     }
     .navbar-nav .nav-link {
         text-align: center;
