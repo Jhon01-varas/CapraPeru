@@ -1,3 +1,5 @@
+AOS.init();
+
 window.addEventListener("scroll", function() {
     const mainImage = document.getElementById("mainImage");
     if (window.scrollY > 100) {
