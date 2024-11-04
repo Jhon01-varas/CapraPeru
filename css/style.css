@@ -1,44 +1,69 @@
-/* Header Styling */
-header {
-    background-image: linear-gradient(to right, #4caf50, #81c784); /* Tonos de verde */
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
-    font-family: 'Arial', sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    background-color: #f9f9f4;
 }
 
-/* Full-Width Image Styling */
+/* Header */
+header {
+    background-image: linear-gradient(to right, #7ab648, #a1d07f);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Imagen de portada */
 .full-width-img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    position: relative;
     transition: opacity 1s ease;
 }
 
-/* Fade-out effect on scroll */
-.fade-out {
-    opacity: 1;
-}
 .fade-out.hidden {
     opacity: 0;
     transition: opacity 1s ease;
 }
 
-/* Navbar Links Styling */
-.nav-link {
-    color: #4caf50; /* Verde atractivo */
-}
-.nav-link:hover {
-    color: #81c784; /* Verde claro para el hover */
+/* Navbar */
+.navbar {
+    background-color: #e8f5e9;
 }
 
-/* Footer Styling */
+.navbar-nav .nav-link {
+    color: #4caf50;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #388e3c;
+}
+
+/* Footer */
 footer {
-    background-color: #388e3c; /* Verde oscuro */
-    color: #fff;
+    background-color: #4caf50;
+    color: white;
 }
 
-/* Body Background */
-body {
-    background-color: #e8f5e9; /* Verde muy claro */
+/* Secciones de contenido */
+main {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #388e3c;
+}
+
+aside {
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    padding: 1rem;
 }
