@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f3f3f3;
+    padding-top: 56px; /* Espacio para el navbar fijo en la parte superior */
 }
 
 /* Header */
@@ -13,7 +14,7 @@ header {
 
 /* Navbar */
 .navbar {
-    background-color: #e0f7fa;
+    background-color: rgba(224, 247, 250, 0.9); /* Hacer el fondo de la navbar semi-transparente */
 }
 .navbar-nav .nav-link {
     color: #00796b;
@@ -89,8 +90,23 @@ html {
 
 /* Ajustes de diseño responsivo para teléfonos */
 @media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(224, 247, 250, 0.95);
+    }
+    .navbar-collapse {
+        background-color: #ffffff; /* Color de fondo para el menú en móvil */
+    }
+    .navbar-nav .nav-link {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hero-section {
+        margin-top: 56px; /* Espacio para el navbar */
+    }
+
+    /* Misión y visión en una columna */
     .mission-vision-section .row {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -105,4 +121,3 @@ html {
         max-height: 150px;
     }
 }
-
