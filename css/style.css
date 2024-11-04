@@ -57,3 +57,7 @@ footer {
 .social-icons img {
     margin: 0 5px;
 }
+
+.social-icons a {
+    margin-bottom: 8px;
+}
