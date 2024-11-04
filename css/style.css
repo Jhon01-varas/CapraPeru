@@ -61,3 +61,23 @@ footer {
 .social-icons a {
     margin-bottom: 8px;
 }
+
+.mission-vision-section {
+    padding: 50px 0;
+}
+
+.mission-vision-section h2 {
+    margin-bottom: 30px;
+}
+
+.mission, .vision {
+    border: 1px solid #ddd; /* Opcional: agrega un borde alrededor de cada sección */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    background-color: #f9f9f9; /* Fondo opcional */
+}
+
+.mission img, .vision img {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
