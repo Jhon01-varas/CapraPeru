@@ -11,9 +11,18 @@
 <body>
     <header class="text-center py-3">
         <h1>Bienvenidos a CAPRA PERÚ S.A.C</h1>
+        <p>Comprometidos con la naturaleza, el bienestar y la salud</p>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs/goat.jpg" alt="Logo de la Empresa" width="40" height="40" class="d-inline-block align-middle">
+            CAPRA PERÚ S.A.C
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
@@ -38,34 +47,80 @@
         </div>
     </nav>
 
-    <img src="imgs/img_001.jpg" alt="Imagen de portada" class="full-width-img fade-out" id="mainImage">
+    <!-- Imagen de Portada -->
+    <div class="hero-section">
+        <img src="imgs/img_001.jpg" alt="Imagen de portada" class="full-width-img fade-out" id="mainImage">
+    </div>
 
+    <!-- Sección Principal -->
     <main class="container my-5">
-        <section>
-            <h2>Sobre nuestros productos</h2>
-            <article class="mb-4">
-                <h3>Artículo 1</h3>
-                <p>Información sobre el primer artículo.</p>
-            </article>
-            <article class="mb-4">
-                <h3>Artículo 2</h3>
-                <p>Información sobre el segundo artículo.</p>
-            </article>
+        <!-- Sobre Nosotros -->
+        <section class="text-center mb-5">
+            <h2>Sobre Nosotros</h2>
+            <p>En CAPRA PERÚ S.A.C., somos una empresa comprometida con ofrecer productos naturales y de alta calidad, enfocados en el bienestar y la salud de nuestros clientes. Con un enfoque sostenible, brindamos productos derivados de cabras y ovejas, ideales para una alimentación balanceada y saludable.</p>
         </section>
-        <aside class="bg-light p-3">
-            <h4>Enlaces Relacionados</h4>
-            <ul>
-                <li><a href="#">Guía de productos</a></li>
-                <li><a href="#">Testimonios</a></li>
-                <li><a href="#">FAQ</a></li>
+
+        <!-- Productos Destacados -->
+        <section class="products-section text-center mb-5">
+            <h2>Nuestros Productos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imgs/goat_milk.jpg" class="card-img-top" alt="Leche de Cabra">
+                        <div class="card-body">
+                            <h5 class="card-title">Leche de Cabra Orgánica</h5>
+                            <p class="card-text">Leche 100% natural, rica en nutrientes y perfecta para una dieta saludable.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imgs/goat_cheese.jpg" class="card-img-top" alt="Queso de Cabra">
+                        <div class="card-body">
+                            <h5 class="card-title">Queso de Cabra Artesanal</h5>
+                            <p class="card-text">Queso fresco y de sabor suave, ideal para todo tipo de preparaciones.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imgs/goat_soap.jpg" class="card-img-top" alt="Jabón de Leche de Cabra">
+                        <div class="card-body">
+                            <h5 class="card-title">Jabón de Leche de Cabra</h5>
+                            <p class="card-text">Ideal para pieles sensibles, con propiedades hidratantes y regenerativas.</p>
+                            <a href="#" class="btn btn-success">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recetas Saludables -->
+        <section class="recipes-section text-center mb-5">
+            <h2>Recetas Saludables</h2>
+            <p>Explora nuestras recetas saludables y deliciosas que puedes preparar con nuestros productos naturales.</p>
+            <ul class="list-unstyled">
+                <li><a href="#">Smoothie de Leche de Cabra y Frutas</a></li>
+                <li><a href="#">Ensalada de Queso de Cabra</a></li>
+                <li><a href="#">Mascarilla Hidratante de Leche de Cabra</a></li>
             </ul>
-        </aside>
+        </section>
     </main>
 
-    <footer class="bg-primary text-white text-center py-3">
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
         <p>&copy; 2024 CAPRA PERÚ S.A.C. Todos los derechos reservados.</p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <div class="social-icons">
+            <a href="#"><img src="imgs/facebook_icon.png" alt="Facebook" width="24"></a>
+            <a href="#"><img src="imgs/instagram_icon.png" alt="Instagram" width="24"></a>
+            <a href="#"><img src="imgs/twitter_icon.png" alt="Twitter" width="24"></a>
+        </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
