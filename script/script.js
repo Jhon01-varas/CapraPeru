@@ -1,8 +1,8 @@
-window.addEventListener('scroll', function() {
-    const image = document.getElementById('mainImage');
-    if (window.scrollY > 100) { // Puedes ajustar el valor
-        image.classList.add('hidden');
+window.addEventListener("scroll", function() {
+    const mainImage = document.getElementById("mainImage");
+    if (window.scrollY > 100) {
+        mainImage.classList.add("hidden");
     } else {
-        image.classList.remove('hidden');
+        mainImage.classList.remove("hidden");
     }
 });

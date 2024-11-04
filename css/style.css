@@ -1,23 +1,44 @@
+/* Header Styling */
 header {
-    background-image: linear-gradient(to right, #4caf50, #8bc34a);
+    background-image: linear-gradient(to right, #4caf50, #81c784); /* Tonos de verde */
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    font-family: 'Arial', sans-serif;
 }
 
+/* Full-Width Image Styling */
 .full-width-img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    position: relative;
     transition: opacity 1s ease;
 }
 
-/* Efecto fade-out al hacer scroll */
+/* Fade-out effect on scroll */
 .fade-out {
     opacity: 1;
 }
 .fade-out.hidden {
     opacity: 0;
     transition: opacity 1s ease;
+}
+
+/* Navbar Links Styling */
+.nav-link {
+    color: #4caf50; /* Verde atractivo */
+}
+.nav-link:hover {
+    color: #81c784; /* Verde claro para el hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #388e3c; /* Verde oscuro */
+    color: #fff;
+}
+
+/* Body Background */
+body {
+    background-color: #e8f5e9; /* Verde muy claro */
 }
